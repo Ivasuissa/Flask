@@ -41,7 +41,7 @@ class JsonablePost(ExtendedPost):
 
 
 user = JsonablePost()
-post = user.get_post()
+post = user.get_posts('https://jsonplaceholder.typicode.com/posts/')
 
 
 
